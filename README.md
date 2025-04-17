@@ -1,3 +1,19 @@
+# 📄 Resume Builder Clone
+
+A dynamic and responsive **Resume Builder Clone** built using **React** and **Bootstrap**. This application allows users to input personal and professional information and generate a polished resume layout in real-time.
+
+## ✨ Features
+
+- Easy-to-use form interface
+- Responsive design with Bootstrap
+- Clean and professional layout
+
+## 🛠 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- CSS Modules or plain CSS for custom styling
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
