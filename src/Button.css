@@ -1,0 +1,80 @@
+.btn-box{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+    margin-left: 0px;
+}
+
+.btn1{
+    height: 56px;
+    width: 330px;
+    border-radius: 12px;
+    font-size: 18px;
+    background: linear-gradient(332deg, #E92085 -15.2%, #FD7521 66.4%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    font-size: 18.4px;
+    transition: all -.3s ease-out;
+}
+
+.btn2{
+    height: 56px;
+    width: 360px;
+    border-radius: 12px;
+    font-size: 18px;
+    background: linear-gradient(332deg, #E92085 -15.2%, #FD7521 66.4%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white) padding-box, linear-gradient(332deg, #EF59A5 -22.1%, #FD9D60 66.64%);
+}
+
+.btn2 span{
+    background: linear-gradient(332deg, #d14e90 -22.1%, #ee9c69 66.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 1868px) and (max-width: 2652px) {
+    .btn-box{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0px 0px 0px;
+        margin-left: 0px;
+    }
+    .btn1{
+        height: 62px;
+        width: 360px;
+        border-radius: 12px;
+        font-size: 18px;
+        background: linear-gradient(332deg, #E92085 -15.2%, #FD7521 66.4%);
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+    .btn2{
+        height: 62px;
+        width: 390px;
+        border-radius: 12px;
+        font-size: 18px;
+        background: linear-gradient(332deg, #E92085 -15.2%, #FD7521 66.4%);
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        border: 2px solid transparent;
+        background: linear-gradient(white, white) padding-box, linear-gradient(332deg, #EF59A5 -22.1%, #FD9D60 66.64%);
+    }
+  }
